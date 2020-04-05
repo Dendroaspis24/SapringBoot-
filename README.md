@@ -1,1 +1,4 @@
-# SapringBoot-
+# SpringBoot-Study
+sb_mybatis_aop项目：springboot整合mybatis之多数据源解决方案：aop形式
+
+sb_mybatis项目：springboot整合mybatis之多数据源解决方案：分包形式
