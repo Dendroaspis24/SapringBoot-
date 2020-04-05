@@ -1,0 +1,21 @@
+
+#配置多数据源
+spring:
+  datasource:
+    #用户数据库
+    user:
+      jdbc-url: jdbc:mysql://106.15.229.91:3306/user
+      username: root
+      password: Qq123123
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    #订单数据库
+    order:
+        jdbc-url: jdbc:mysql://106.15.229.91:3306/order
+        username: root
+        password: Qq123123
+        driver-class-name: com.mysql.cj.jdbc.Driver
+
+    #所数据源配置 url变为jdbc-url
+    #升级后的mysql驱动类，Driver位置由com.mysql.jdbc.Driver 变为com.mysql.cj.jdbc.Drive
+server:
+  port: 8081
