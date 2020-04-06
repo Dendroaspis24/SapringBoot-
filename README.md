@@ -2,3 +2,5 @@
 sb_mybatis_aop项目：springboot整合mybatis之多数据源解决方案：aop形式
 
 sb_mybatis项目：springboot整合mybatis之多数据源解决方案：分包形式
+
+sb_mybatis_transaction项目：	多数据源下的事务问题，使用jta+atomikos方案解决
