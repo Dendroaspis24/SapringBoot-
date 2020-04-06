@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/sb_mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/sb_mybatis_aop/pom.xml" />
         <option value="$PROJECT_DIR$/sb_mybatis_package/pom.xml" />
+        <option value="$PROJECT_DIR$/sb_mybatis_transaction/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -17,4 +18,5 @@
       </set>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

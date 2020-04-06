@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="sb_mybatis_aop" />
         <module name="sb_mybatis_package" />
+        <module name="sb_mybatis_transaction" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="sb_mybatis_aop" target="1.8" />
       <module name="sb_mybatis_package" target="1.8" />
+      <module name="sb_mybatis_transaction" target="1.8" />
       <module name="sb_mybatisAop" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -21,6 +23,7 @@
       <module name="sb_mybatisAop" options="-parameters" />
       <module name="sb_mybatis_aop" options="-parameters" />
       <module name="sb_mybatis_package" options="-parameters" />
+      <module name="sb_mybatis_transaction" options="-parameters" />
     </option>
   </component>
 </project>
