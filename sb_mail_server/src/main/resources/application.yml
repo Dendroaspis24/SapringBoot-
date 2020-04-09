@@ -8,3 +8,5 @@ spring:
     #协议
     protocol: smtp
     username: 237480474@qq.com
+http:
+  url: https://www.hupu.com/

@@ -1,5 +1,6 @@
 package com.dhh.sb_mail_server.controller;
 
+import client.HttpClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.mail.SimpleMailMessage;
@@ -70,5 +71,14 @@ public class EmailController {
             return "发送失败";
         }
 
+    }
+
+    @Autowired
+    private HttpClient httpClient;
+
+
+    @RequestMapping("/diyStarter")
+    public String diyStarter(){
+        return httpClient.getHtml();
     }
 }
