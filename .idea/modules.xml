@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SapringBoot.iml" filepath="$PROJECT_DIR$/.idea/SapringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sb_mail_server/sb_mail_server.iml" filepath="$PROJECT_DIR$/sb_mail_server/sb_mail_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/sb_mybatis_aop/sb_mybatis_aop.iml" filepath="$PROJECT_DIR$/sb_mybatis_aop/sb_mybatis_aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/sb_mybatis_package/sb_mybatis_package.iml" filepath="$PROJECT_DIR$/sb_mybatis_package/sb_mybatis_package.iml" />
       <module fileurl="file://$PROJECT_DIR$/sb_mybatis_transaction/sb_mybatis_transaction.iml" filepath="$PROJECT_DIR$/sb_mybatis_transaction/sb_mybatis_transaction.iml" />
