@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sb_mybatis_aop" />
+        <module name="sb_mail_server" />
         <module name="sb_mybatis_package" />
+        <module name="sb_mybatis_aop" />
         <module name="sb_mybatis_transaction" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="sb_mail_server" target="1.8" />
       <module name="sb_mybatis_aop" target="1.8" />
       <module name="sb_mybatis_package" target="1.8" />
       <module name="sb_mybatis_transaction" target="1.8" />
@@ -20,6 +22,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sb_mail_server" options="-parameters" />
       <module name="sb_mybatisAop" options="-parameters" />
       <module name="sb_mybatis_aop" options="-parameters" />
       <module name="sb_mybatis_package" options="-parameters" />
